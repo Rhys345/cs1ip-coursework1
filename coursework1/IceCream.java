@@ -7,10 +7,7 @@ public class IceCream {
         System.out.println("Would you like (v)anilla, (c)hocolate or (s)trawberry?");
         char flavour = input.nextLine().charAt(0);
 
-        System.out.println("How many scoops would you like?");
-        int scoops = input.nextInt();
-
-        int student = 33123456;
+        int student = 34024487;
         int strawberry = (student / 10000) % 100;
         int chocolate = (student / 100) % 100;
         int vanilla = student % 100;
@@ -27,6 +24,9 @@ public class IceCream {
             System.out.println("We don't have that flavour.");
             return;
         }
+
+        System.out.println("How many scoops would you like?");
+        int scoops = input.nextInt();
 
         if (scoops > 3) {
             System.out.println("That's too many scoops to fit in a cone.");

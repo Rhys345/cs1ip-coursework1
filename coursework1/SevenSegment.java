@@ -15,6 +15,8 @@ public class SevenSegment {
             }
         }
 
+        System.out.println();
+
         for (int line = 1; line <= 5; line++) {
             for (int i = count - 1; i >= 0; i--) {
                 int d = digits[i];
