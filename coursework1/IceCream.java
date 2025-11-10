@@ -10,10 +10,10 @@ public class IceCream {
         System.out.println("How many scoops would you like?");
         int scoops = input.nextInt();
 
-        int id = 123456;
-        int strawberry = id / 10000;
-        int chocolate = (id / 100) % 100;
-        int vanilla = id % 100;
+        int student = 33123456;
+        int strawberry = (student / 10000) % 100;
+        int chocolate = (student / 100) % 100;
+        int vanilla = student % 100;
         int cone = 100;
         int price = 0;
 
